@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://www.xfont.ru/victo-ixel-ont");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+body {
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+    font-weight: normal;
+    /*background-image: url(/images/other/ork.jpeg);*/
+    /*background-image: 100%;*/
+    /*background-color: solid rgb(192 223 71);*/
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(14, 60, 243);
+}
+
+
+a:hover {
+    color: rgb(85, 117, 247);
+}
+p {
+    margin: 0;
+    padding: 15px;
+}
+
+
+h4 {
+    margin: 0;
+    padding: 15px;
+    background-color: rgba(197, 240, 87, 0.349);
+    border-bottom: 2px solid rgb(177 223 55);;
+}
+
+
+li {
+    margin-bottom: 15px;
+    list-style-position:inside;
+}
+
+
+ol {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+ul {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+}
+
+
+h1 {
+    margin-bottom: 0.5cm;
+    font-size: 16px;
+}
+
+
+form {
+    padding: 15px;
+}
+
+
+table {
+    margin: 15px;
+    display: inline-block;   
+    text-align: center;
+    margin: 15px;   
+    border: 2px solid black;
+    border-collapse: collapse;  
+}
+
+th {
+    padding: 15px;
+    border: 2px solid black;
+    
+}
+
+
+td {
+    padding: 15px;
+    border: 2px solid black;
+}
+.nav-item-resume {
+    font-size: 16px;
+    color: rgb(177 223 55);
+    margin: auto;
+}
+
+
+.nav-item-resume:hover {
+    color:rgb(210, 238, 138);
+}
+
+
+.menu {
+    height: 1;
+    background-color: azure;
+    text-align: center;
+    height: 1.2cm;
+    display: flex;
+    background-color: black;
+}
+
+.card {
+    margin-top: 0.5cm;
+    border: 2px solid rgb(177 223 55); /*rgb(174 219 58)*//* rgb(31, 190, 42)*/;
+}
+
+
+.all-sections {
+    padding:0.5cm;
+    background-color: rgb(247, 247, 247);
+}
+
+
+.main-info {
+    text-align: center;
+}
