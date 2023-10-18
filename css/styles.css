@@ -87,7 +87,6 @@ table {
     padding: 0.5cm;
     border-collapse: collapse; 
     display: block;
-	max-width: 100%;
 	overflow-x: auto;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
@@ -109,11 +108,6 @@ table td {
 }
 
 
-.tbl-caption {
-    padding: 10px;
-    border: 2px solid rgb(177 223 55);
-    text-align: center;
-}
 .nav-item-resume {
     font-size: 16px;
     color: rgb(177 223 55);
@@ -154,13 +148,18 @@ table td {
 footer {
     background-color: black;
     text-align: center;
+    font-size: 16px;
     height: 1.2cm;
+    color: rgb(177 223 55);
+    display: flex;
 
 }
 
 
 .footer-info {
-    font-size: 16px;
-    color: rgb(177 223 55);
+    padding:0;
+    text-align: center;
     margin: auto;
+
+
 }
