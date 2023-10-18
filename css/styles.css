@@ -78,25 +78,27 @@ form {
 
 
 .work-experience {
-    box-sizing: border-box;
-    position: relative;
-    border-radius: 20px;
-
+    overflow: auto;
+	position: relative;
 }
 
+
 table {
-    margin: 15px;
-    border: 2px solid rgb(177 223 55);
-    table-layout: auto;
+    padding: 0.5cm;
     border-collapse: collapse; 
-    border-radius: 20px;
+    display: block;
+	max-width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+    flex-wrap: wrap;
 }
 
 
 table th {
     padding: 15px;
     border: 2px solid rgb(177 223 55);
-    background-color: rgba(197, 240, 87, 0.349);   
+    background-color: rgba(197, 240, 87, 0.349);  
 }
 
 
@@ -107,6 +109,11 @@ table td {
 }
 
 
+.tbl-caption {
+    padding: 10px;
+    border: 2px solid rgb(177 223 55);
+    text-align: center;
+}
 .nav-item-resume {
     font-size: 16px;
     color: rgb(177 223 55);
