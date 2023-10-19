@@ -13,11 +13,18 @@ body {
     font-family: 'Press Start 2P';
     font-size: 13px;
     font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     /*background-image: url(/images/other/ork.jpeg);*/
     /*background-image: 100%;*/
     /*background-color: solid rgb(192 223 71);*/
 }
 
+
+main {
+    flex-grow: 1;
+}
 
 a {
     text-decoration: none;
